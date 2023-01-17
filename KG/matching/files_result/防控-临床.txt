@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>onto1</onto1>
+  <onto2>onto2</onto2>
+  <uri1>onto1</uri1>
+  <uri2>onto2</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/prevention/class/C1"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-2019/medical/class/crowds"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8171045500401365</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/prevention/class/C3031102"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-2019/medical/class/school"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.733126900381159</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/event/property/summary"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/synopsis"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8509365596509216</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/event/property/policyContent"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/content"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7935453439487864</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

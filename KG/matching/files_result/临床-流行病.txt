@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>onto1</onto1>
+  <onto2>onto2</onto2>
+  <uri1>onto1</uri1>
+  <uri2>onto2</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/class/spreadRoute"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9144279827641606</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/class/disease"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C6"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.906357910595718</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/class/virus"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1017"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9009022505911429</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/compose"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P10"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9984847569896637</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/mortality"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P42"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9975639659438861</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/infection"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P9"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9969264932912347</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/incubationPeriod"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P44"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9962589748181349</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/clinicalFeature"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P22"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.877364813401872</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-2019/medical/property/susceptiblePeople"/>
+        <entity2 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P24"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7845758628149454</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

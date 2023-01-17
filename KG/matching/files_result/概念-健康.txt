@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>onto1</onto1>
+  <onto2>onto2</onto2>
+  <uri1>onto1</uri1>
+  <uri2>onto2</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1201"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C401"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C694"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C420"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9977409578239097</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C961"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C138"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9974453142315011</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C70"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C282"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9970375094073916</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C834"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C541"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9970335570567415</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C489"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C455"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9963667151312094</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1233"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C503"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9955724672715262</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C878"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C12"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9955484604180905</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1257"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C269"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9948369413068904</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1167"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C80"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9944513859391528</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C609"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C241"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9938157061477846</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C811"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C304"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9937511659855203</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1231"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C311"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9911168897057562</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C724"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C444"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9892385613915095</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C605"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C141"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.988753217103025</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C591"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C538"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9812572350436671</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C912"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C9"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8778700420301976</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C945"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C583"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8639775743074695</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C787"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C154"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.831917464020135</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C659"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C456"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8285598736716003</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C566"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C67"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8245725571512735</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C687"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C483"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8153724176786867</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C503"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C537"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8010034763160392</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C614"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C574"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7991218164722356</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C3"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C451"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7952924882864649</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C567"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C564"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7928841756323431</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C47"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C358"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7900414689856029</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C617"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C222"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7659012104372358</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C355"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C543"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.761433697098248</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C858"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C174"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7518178532836818</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C493"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C189"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7511134251167697</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C940"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C17"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.732834372555766</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C175"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C377"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7291330506783752</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1261"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C410"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7265361196259392</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C949"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C164"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7255008755210963</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C1389"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C447"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7203011652588402</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C324"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C314"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7187000975630926</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C823"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C93"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7164354506491438</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C808"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C4"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7046550433928662</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C486"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C288"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7046417314589228</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openkg.cn/COVID-19/wiki/class/C668"/>
+        <entity2 rdf:resource="http://www.openkg.cn/2019-nCoV/health/class/C407"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.701816333890461</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+    <PREFIX>
+        <NAMESPACE>http://linkedgeodata.org/ontology/</NAMESPACE>
+        <LABEL>lgdo</LABEL>
+    </PREFIX>
+
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+        <LABEL>rdfs</LABEL>
+    </PREFIX>
+
+
+
+    <SOURCE>
+        <ID>medical</ID>
+        <ENDPOINT>/root/dataset/medical/medical_entity.nt</ENDPOINT>
+        <VAR>?x</VAR>
+        <PAGESIZE>-1</PAGESIZE>
+        <RESTRICTION>?x rdfs:label ?z1</RESTRICTION>
+        <PROPERTY>rdfs:label RENAME label</PROPERTY>
+        <TYPE>NT</TYPE>
+    </SOURCE>
+    <TARGET>
+        <ID>resource</ID>
+        <ENDPOINT>/root/dataset/resource/resource_entity.nt</ENDPOINT>
+        <VAR>?y</VAR>
+        <PAGESIZE>-1</PAGESIZE>
+        <RESTRICTION>?y rdfs:label ?z2</RESTRICTION>
+        <PROPERTY>rdfs:label RENAME label</PROPERTY>
+        <TYPE>NT</TYPE>
+    </TARGET>
+    <MLALGORITHM>
+        <NAME>wombat simple</NAME>
+        <TYPE>unsupervised</TYPE>
+        <PARAMETER>
+            <NAME>max execution time in minutes</NAME>
+            <VALUE>60</VALUE>
+        </PARAMETER>
+    </MLALGORITHM>
+    <ACCEPTANCE>
+        <THRESHOLD>0.9</THRESHOLD>
+        <FILE>lgd_relaybox_verynear.nt</FILE>
+        <RELATION>lgdo:near</RELATION>
+    </ACCEPTANCE>
+    <REVIEW>
+        <THRESHOLD>0.5</THRESHOLD>
+        <FILE>lgd_relaybox_near.nt</FILE>
+        <RELATION>lgdo:near</RELATION>
+    </REVIEW>
+
+    <EXECUTION>
+        <REWRITER>default</REWRITER>
+        <PLANNER>default</PLANNER>
+        <ENGINE>default</ENGINE>
+    </EXECUTION>
+
+    <OUTPUT>TAB</OUTPUT>
+</LIMES>

@@ -1,0 +1,4 @@
+<http://www.openkg.cn/2019-nCoV/event/class/C2> <http://www.w3.org/2000/01/rdf-schema#label> "新型冠状病毒事件" .
+<http://www.openkg.cn/2019-nCoV/event/class/C1> <http://www.w3.org/2000/01/rdf-schema#label> "公共卫生事件" .
+<http://www.openkg.cn/2019-nCoV/event/class/C0> <http://www.w3.org/2000/01/rdf-schema#label> "事件" .
+<http://www.openkg.cn/2019-nCoV/event/class/C3> <http://www.w3.org/2000/01/rdf-schema#label> "国家政策事件" .
